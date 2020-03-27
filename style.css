@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400|Lora:700i|Lato:300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+div {
+  position: relative;
+  z-index: 2;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80");
+  color: #000;
+  font-family: 'Lora', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#quote-box {
+  border-radius: 10px;
+  position: relative;
+  margin: auto auto auto auto;
+  width: 450px;
+  padding: 20px 30px;
+  background-color: #fff;
+}
+  .quote-text {
+    i{
+      font-size: 1.0em;
+      margin-right: 0.4em;
+    }
+    img {
+      max-height: 60px;
+      max-width: 90px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+    }
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 2em;
+  }
+  .quote-author {
+    width: 100%;
+    padding-top: 8%;
+    font-size: 1.2em; 
+    text-align: right;
+  }
+  .buttons {
+    width: 50%;
+    margin: auto;
+    display: block;
+  }
+   .buttons > .button {
+      font-family: "Lato";
+      height: 38px;
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+      background-color: #5a5a5a;
+      outline: none;
+      font-size: 0.95em;
+      padding: 8px 25px 8px 25px;
+      margin-top: 50px;
+      cursor: pointer;
+    }
+      .button:hover {
+        box-shadow: 0 0 10px #3b7058;
+      }
+      #tweet-quote {
+        float: left;
+        padding: 0px;
+        padding-top: 8px;
+        text-align: center;
+        font-size: 1.2em;
+        margin-right: 5px;
+        height: 30px;
+        width: 40px;
+      }
+      #new-quote {
+        float: right;
+      }
